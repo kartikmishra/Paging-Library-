@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?attr/actionBarSize"-->
+            <!--android:id="@+id/relLayout"-->
+            <!--android:background="@color/colorPrimary">-->
+ <!--android:scaleType="fitXY"/>-->
+
+
+
+   <!---->
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/relLayout1">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/detail_activity__iv"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"/>
+
+
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/relLayout1"
+            android:id="@+id/relativlayout2">
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_marginLeft="15sp"
+                android:id="@+id/detail_activity_small_iv"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="7dp"
+                android:layout_marginStart="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/detail_activity_small_iv"
+                android:id="@+id/tv_movieName_Label"
+                android:layout_marginStart="20sp"
+                android:textColor="#000"
+                android:text="Avengers"
+
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_toRightOf="@+id/detail_activity_small_iv"
+                android:layout_marginLeft="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/detail_activity_small_iv"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="10sp"
+                android:layout_below="@+id/tv_movieName_Label"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+                android:textColor="#000"
+                android:text="March 25"
+                android:id="@+id/tv_releaseDateValue"
+                android:layout_toRightOf="@id/detail_activity_small_iv"
+                android:layout_marginLeft="20sp" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeLayout3"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@id/detail_activity_small_iv"
+                android:layout_below="@id/tv_releaseDateValue"
+                android:layout_toRightOf="@id/detail_activity_small_iv"
+                android:layout_marginRight="10dp">
+
+                <RatingBar
+                    android:id="@+id/tv_vote_average"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="?attr/ratingBarStyleIndicator"
+                    android:scaleX="0.9"
+                    android:scaleY="1"
+                    android:numStars="5"
+                    android:layout_marginStart="5sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="5sp" />
+
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_toEndOf="@id/detail_activity_small_iv"
+                android:layout_below="@+id/relativeLayout3"
+                android:layout_marginTop="10dp"
+                android:duplicateParentState="true"
+                android:id="@+id/fav_btn"
+                android:src="@drawable/favsymboldark"
+                android:layout_marginStart="20sp"
+                android:layout_toRightOf="@id/detail_activity_small_iv"
+                android:layout_marginLeft="20sp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000"
+                android:layout_alignParentBottom="true">
+            </View>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relativlayout2"
+            android:id="@+id/relativeLayout4"
+            android:layout_marginTop="5sp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_marginStart="12sp"
+                android:layout_marginBottom="12sp"
+                android:id="@+id/tv_overView"
+                android:textColor="#000"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                android:layout_marginLeft="12sp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000"
+                android:layout_alignParentBottom="true">
+            </View>
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_below="@id/relativeLayout4"
+            android:id="@+id/relativeLayout5">
+
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Trailers"-->
+            <!--android:layout_marginStart="2dp"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:textColor="@color/orange_500"-->
+            <!--android:id="@+id/trailer_label"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />-->
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recyclerView_trailers"
+                android:scrollbars="horizontal"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="5dp">
+            </android.support.v7.widget.RecyclerView>
+
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/relLayout6"
+            android:layout_below="@+id/relativeLayout5">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/relLayout6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reviews"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/red"
+                android:id="@+id/review_label"
+                android:layout_alignParentTop="true"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/review_label"
+                android:id="@+id/recyclerView_reviews"
+                android:scrollbars="vertical"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"
+                android:layout_alignParentLeft="true">
+            </android.support.v7.widget.RecyclerView>
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+<!--</RelativeLayout>-->

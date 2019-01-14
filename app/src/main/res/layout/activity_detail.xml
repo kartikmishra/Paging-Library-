@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInterface.DetailActivity">
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="?attr/actionBarSize"-->
+    <!--android:id="@+id/relLayout1"-->
+    <!--android:background="@color/grey_800">-->
+
+
+    <!--<ImageView-->
+    <!--android:layout_width="30dp"-->
+    <!--android:contentDescription="@string/back"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:src="@drawable/ic_backarrow"-->
+    <!--android:id="@+id/back_iv"-->
+    <!--android:background="@color/grey_800"-->
+    <!--android:layout_marginTop="10sp"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_marginStart="6sp"/>-->
+
+    <!--</RelativeLayout>-->
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+
+            <include layout="@layout/content_detail_layout"/>
+
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

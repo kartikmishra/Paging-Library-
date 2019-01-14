@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFCC0000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#CDDC39</color>
+
+
+
+
+    <color name="amber_500">#FFC107</color>
+    <color name="orange_500">#FF9800</color>
+    <color name="yellow_500">#FFEB3B</color>
+    <color name="lime_500">#CDDC39</color>
+    <color name="light_green">#8BC34A</color>
+    <color name="brown_800">#4E342E</color>
+    <color name="grey_800">#424242</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="skin">#ffe0bd</color>
+    <color name="baige">#d6d6c2</color>
+
+
+
+
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="red" type="color">#FFFF4444</item>
+
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+
+    <integer-array name="androidcolors">
+
+
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+        <item>@color/grey_800</item>
+        <item>@color/brown_800</item>
+
+    </integer-array>
+</resources>
